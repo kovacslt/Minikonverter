@@ -1,0 +1,135 @@
+object Form2: TForm2
+  Left = 598
+  Height = 166
+  Top = 770
+  Width = 753
+  BorderStyle = bsDialog
+  Caption = 'FFMpeg parancssor:'
+  ClientHeight = 166
+  ClientWidth = 753
+  Position = poOwnerFormCenter
+  LCLVersion = '2.0.6.0'
+  object Edit1: TEdit
+    Left = 53
+    Height = 29
+    Top = 46
+    Width = 312
+    ParentFont = False
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 18
+    Top = 49
+    Width = 51
+    Caption = 'ffmpeg'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 373
+    Height = 18
+    Top = 49
+    Width = 366
+    Caption = '-i   [BEMENETI FÁJL KITÖLTÉSE AUTOMATIKUS]'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 8
+    Height = 29
+    Top = 84
+    Width = 737
+    ParentFont = False
+    TabOrder = 1
+    Text = 'Edit2'
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 18
+    Top = 128
+    Width = 337
+    Caption = '[KIMENETI FÁJL KITÖLTÉSE AUTOMATIKUS]'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit3: TEdit
+    Left = 368
+    Height = 29
+    Top = 123
+    Width = 44
+    ParentFont = False
+    TabOrder = 2
+    Text = 'Edit3'
+  end
+  object Label4: TLabel
+    Left = 472
+    Height = 18
+    Top = 129
+    Width = 15
+    Caption = '-y'
+    ParentColor = False
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 656
+    Height = 30
+    Top = 122
+    Width = 90
+    Default = True
+    DefaultCaption = True
+    Kind = bkOK
+    ModalResult = 1
+    ParentFont = False
+    TabOrder = 3
+  end
+  object BitBtn2: TBitBtn
+    Left = 560
+    Height = 30
+    Top = 122
+    Width = 90
+    Cancel = True
+    DefaultCaption = True
+    Kind = bkCancel
+    ModalResult = 2
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Edit4: TEdit
+    Left = 53
+    Height = 29
+    Top = 8
+    Width = 80
+    ParentFont = False
+    TabOrder = 5
+    Text = 'Edit4'
+  end
+  object Edit5: TEdit
+    Left = 248
+    Height = 29
+    Top = 8
+    Width = 491
+    ParentFont = False
+    TabOrder = 6
+    Text = 'Edit5'
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 18
+    Top = 15
+    Width = 21
+    Caption = 'ID:'
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 152
+    Height = 18
+    Top = 15
+    Width = 82
+    Caption = 'Minta neve:'
+    ParentColor = False
+    ParentFont = False
+  end
+end
